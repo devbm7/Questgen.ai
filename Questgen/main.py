@@ -19,6 +19,8 @@ from nltk import FreqDist
 nltk.download('brown', quiet=True, force=True)
 nltk.download('stopwords', quiet=True, force=True)
 nltk.download('popular', quiet=True, force=True)
+from spacy.cli import download
+download('en_core_web_sm')
 from nltk.corpus import stopwords
 from nltk.corpus import brown
 from similarity.normalized_levenshtein import NormalizedLevenshtein
