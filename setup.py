@@ -24,7 +24,8 @@ setup(name='Questgen',
             'python-dateutil',
             'flashtext',
             'pandas',
-            'sentencepiece'
+            'sentencepiece',
+            'en_core_web_sm'
       ],
       package_data={'Questgen': ['questgen.py', 'mcq.py', 'train_gpu.py', 'encoding.py']}
       )
